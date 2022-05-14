@@ -12,7 +12,8 @@ import numpy as np
 from modules.postgres import Conector_postgres
 try:
     # -------------------------------------------- EXTRAÇÃO DOS DADOS --------------------------------------------
-    df_dados = pd.read_csv("C:\\Users\\quel-\\OneDrive\\Área de Trabalho\\CURSOS\\Curso - Python\\Atividades_aulas_aovivo\\Atividades\\Atividade17\\kba_data.csv") #Cole aqui o caminho do seu arquivo
+    path = # Cole aqui o caminho do seu aeequivo
+    df_dados = pd.read_csv(path)
     print(df_dados)
     print("--------------------------------------------------------------------------------------------------------------------")
 
